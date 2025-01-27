@@ -1,4 +1,4 @@
-# 1. Two Sum - Leetcode Solution
+# 1. Two Sum - Leetcode
 
 ## Problem Statement
 Given an array of integers `nums` and an integer `target`, return the indices of two numbers such that they add up to `target`. You may not use the same element twice.
@@ -82,7 +82,7 @@ public:
 ---
 ###
 
-# 13. Roman to Integer - Leetcode Solution
+# 13. Roman to Integer - Leetcode
 
 ## Problem Statement
 Convert a Roman numeral string `s` to its integer equivalent. Roman numerals are represented by the following characters:
@@ -155,7 +155,7 @@ int romanToInt(char* s) {
 
 ---
 ###
-# 20. Valid Parentheses - Leetcode Solution
+# 20. Valid Parentheses - Leetcode
 
 ## Problem Statement
 Given a string `s` containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid. A string is valid if:

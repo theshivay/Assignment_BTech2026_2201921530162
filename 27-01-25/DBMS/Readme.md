@@ -1,4 +1,4 @@
-# 175. Combine Two Tables - Leetcode Solution
+# 175. Combine Two Tables - Leetcode
 
 ## Problem Statement
 Given two tables, `Person` and `Address`, write a SQL query to retrieve the first name, last name, city, and state of each person. If a person does not have an address, include their name with `NULL` values for city and state.
