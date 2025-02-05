@@ -1,35 +1,3 @@
-# 1. Train Ticket Booking System - C++
-
-## Problem Statement
-Design a Train Ticket Booking System that allows users to:
-1. Check train availability between a source and destination.
-2. Book tickets for available trains.
-3. Cancel booked tickets.
-4. Check ticket status using PNR.
-
-## Coding Platform
-- Implemented in C++
-
-## Approach & Solution
-- **Data Structures Used:**
-  - `map<pair<string, string>, vector<int>>` to store available train routes.
-  - `map<int, int>` to track available seats for each train.
-  - `vector<Passenger>` to store passenger details.
-  - `vector<Ticket>` to manage booked tickets.
-- **Functionality:**
-  - `checkAvailability()`: Finds and displays available trains between a given source and destination.
-  - `bookTicket()`: Books a ticket, assigns a PNR, and stores passenger details.
-  - `cancelTicket()`: Cancels a ticket using PNR and updates seat availability.
-  - `checkStatus()`: Retrieves ticket details using a PNR.
-- **Execution Flow:**
-  - The program provides a menu-driven system for users to interact with different functionalities.
-  - Uses a `while` loop to continuously take user input until exit is chosen.
-- **Efficiency:**
-  - Uses maps for quick lookups and storage of train details.
-  - Minimizes memory usage with efficient data handling.
-
-## Code Implementation
-```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -220,5 +188,3 @@ int main() {
 
     return 0;
 }
-```
-
